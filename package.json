@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
+    "lite":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ViniciusGregorine/aula2.git"
   },
-  "author": "",
+  "author": "Vinicius Gregorine Menegon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ViniciusGregorine/aula2/issues"
   },
-  "homepage": "https://github.com/ViniciusGregorine/aula2#readme"
+  "homepage": "https://github.com/ViniciusGregorine/aula2#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
